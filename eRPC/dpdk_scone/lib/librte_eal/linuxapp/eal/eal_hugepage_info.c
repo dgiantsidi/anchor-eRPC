@@ -73,9 +73,9 @@ get_num_hugepages(const char *subdir)
 static uint64_t
 get_default_hp_size(void)
 {
-	// const char proc_meminfo[] = "/proc/meminfo";
+	const char proc_meminfo[] = "/proc/meminfo";
 	//const char proc_meminfo[] = "/home/dimitra/workspace/src/dpdk/proc/meminfo";
-	const char proc_meminfo[] = "/home/dimitra/enclave-SpeicherDB/speicherdb/src/dpdk/proc/meminfo";
+	// const char proc_meminfo[] = "/home/dimitra/enclave-SpeicherDB/speicherdb/src/dpdk/proc/meminfo";
 	const char str_hugepagesz[] = "Hugepagesize:";
 	unsigned hugepagesz_len = sizeof(str_hugepagesz) - 1;
 	char buffer[256];
