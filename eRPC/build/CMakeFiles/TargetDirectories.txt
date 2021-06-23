@@ -1,0 +1,3 @@
+/home/dimitra/workspace/anchor/network-stack/client_server_twosided/eRPC/build/CMakeFiles/rebuild_cache.dir
+/home/dimitra/workspace/anchor/network-stack/client_server_twosided/eRPC/build/CMakeFiles/erpc.dir
+/home/dimitra/workspace/anchor/network-stack/client_server_twosided/eRPC/build/CMakeFiles/edit_cache.dir
