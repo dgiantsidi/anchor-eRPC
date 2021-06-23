@@ -25,6 +25,7 @@ include_directories(SYSTEM ${CMAKE_SOURCE_DIR}/third_party)
 
 ### EDITED
 if(SCONE)
+  	add_definitions(-DSCONE)
 	message(STATUS "Compiled w/ SCONE")
 	include_directories(${CMAKE_SOURCE_DIR}/dpdk_scone/usr/include/dpdk)
 	link_directories(${CMAKE_SOURCE_DIR}/dpdk_scone/usr/lib)
